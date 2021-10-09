@@ -16,7 +16,7 @@ Em relação a alocação das variáveis, provavelmente, elas são alocadas na h
 * `typeinfo()`  -> Retorna uma informação em relação ao tipo da variável.
 * `class()`     -> Retorna a classe ao qual o objeto pertence.
 * `cast()`      -> Permite a transformação do tipo do valor, caso haja correspondência.
-* `isa`
+* `isa()`       -> Testa se o a variável é de uma determinada classe 
 
 **Exemplos:**
 ```octave
