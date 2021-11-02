@@ -8,7 +8,7 @@ Neste relatório, vamos apresentar as atividades realizadas para o segundo traba
 * Método da Tangente
 
 **Função:**
-* f(x) = 3x − ex
+* f(x) = 3x − e^x
 ## Implementações
 ### Função auxiliar
 Nós criamos uma função auxiliar para permitir a passagem de funções matemáticas como parâmetro a partir de uma string. Isso cria um ambiente mais dinâmico em que as funções podem ser passadas como parâmetro pelo terminal e os nossos métodos não dependem da definição ou a implementação das funções a serem utilizadas de forma programática.
