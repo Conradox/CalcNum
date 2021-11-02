@@ -1,7 +1,7 @@
 Relatório segundo trabalho
 ===
 
-Neste relatório vamos apresentar as atividades realizadas neste segundo trabalho da disciplina de cálculo numérico. Este trabalho consiste na criação de dois métodos utilizados para a busca de raízes em uma função e a utilização destes métodos para encontrar as raízes de uma determinada função.
+Neste relatório, vamos apresentar as atividades realizadas para o segundo trabalho da disciplina de cálculo numérico. Este trabalho consiste na criação de dois métodos utilizados para a busca de raízes em uma função e a utilização destes métodos para encontrar as raízes de uma determinada função.
 
 **Métodos:**
 * Método da Bisseção
@@ -10,8 +10,9 @@ Neste relatório vamos apresentar as atividades realizadas neste segundo trabalh
 **Função:**
 * f(x) = 3x − ex
 ## Implementações
-### Funções auxiliares
-Nós criamos um função auxiliar para permitir que o nosso método possa receber a função objetivo como uma string permitindo que o nosso código possa receber funções pelo terminal facilmente.
+### Função auxiliar
+Nós criamos uma função auxiliar para permitir a passagem de funções matemáticas como parâmetro a partir de uma string. Isso cria um ambiente mais dinâmico em que as funções podem ser passadas como parâmetro pelo terminal e os nossos métodos não dependem da definição ou a implementação das funções a serem utilizadas de forma programática.
+
 
 ```octave
 function rtrn = func_exec(str_func, x)
@@ -104,11 +105,11 @@ bisec("3 * x - e ^ x", 1, 2, 0.00005);
 
 ## Resultados
 ### Busca pelos intervalos
-Antes de realizar a descoberta das raízes precisamos fazer uma simples analise para buscar os intervalos em que vamos passar como parâmetro para as nossas funções, uma das maneiras de se fazer isso é a partir de uma análise gráfica. Neste caso, usamos o próprio octave para plotar o gráfico da função.
+Antes de realizar a descoberta das raízes, precisamos fazer uma simples análise para buscar os intervalos que irão ser passados como parâmetro para os nossos métodos, uma das maneiras de se fazer isso é a partir de uma análise gráfica. Neste caso, usamos o próprio octave para plotar o gráfico da função.
 <br>
 <img src="func_graph.png" width="500">
 <br>
-Como pode-se ver, a partir do gráfico conseguimos facilmente visualizar que as raízes estão entre os intervalos [0,1] e [1,2].
+A partir do gráfico conseguimos facilmente visualizar que as raízes estão entre os intervalos [0,1] e [1,2].
 
 ### Tabela de resultados
 
